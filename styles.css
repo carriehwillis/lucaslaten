@@ -1,0 +1,60 @@
+section p, li {
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* body {
+    background-color: #52546c;
+    color: #fff;
+} */
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 1%;
+}
+
+body {
+    padding: 0px 20%;
+    position: relative;
+}
+
+div.main {
+    padding-top: 60px;
+}
+
+nav li a {
+    text-transform: capitalize;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    
+}
+
+.bio img {
+    max-width: 450px;
+    float: right;
+    margin: 0 1em;
+}
+section {
+    clear: right;
+}
+nav img {
+    max-width: 100px;
+    float: left;
+}
+
+h1#disclaimer {
+  color: darkred;
+}
