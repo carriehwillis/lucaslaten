@@ -88,9 +88,15 @@ section h3 {
 
 ul.no-dec {
     list-style-type: none;
-    /* margin: 0px; */
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
+.subtitle {
+    font-style: italic;
+    font-size: 0.9em;
+
+}
 
 /* Pulse, with thanks to Ian Lunn (http://ianlunn.github.io/Hover/) */
 @-webkit-keyframes hvr-pulse {
@@ -138,6 +144,15 @@ ul.no-dec {
     animation-iteration-count: infinite;
 }
 
+.bio a {
+    color: #58595B;
+    text-decoration: underline;
+}
+
+.bio a:hover {
+    color: #0C0A3E;
+    text-decoration: underline;
+}
 footer {
     font-family:'Courier New', Courier, monospace;
     margin-top: 1em;
@@ -146,6 +161,7 @@ footer {
 
 footer a {
     color: #fff;
+    text-decoration: underline;
 }
 
 footer a:hover {
@@ -153,8 +169,20 @@ footer a:hover {
 }
 
 .callout {
+    padding: 1em;
     opacity: 0.75;
     background-color: #FF8200;
+    color: #0C0A3E;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px,
     inset rgba(0, 0, 0, 0.2) 0px -1px 2px;
+}
+
+button.customButton {
+    background-color: #FF8200;
+    color: #0C0A3E;
+}
+
+button.customButton:hover {
+    background-color: #0C0A3E;
+    color: #fff;
 }
