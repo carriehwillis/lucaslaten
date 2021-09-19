@@ -16,7 +16,7 @@ nav {
     height: 60px;
     overflow: hidden;
     z-index: 1;
-    background-color: #514C57;
+    background-color: #58595B;
 }
 
 nav ul {
@@ -54,16 +54,18 @@ a.nav-link {
 
 a.nav-link:hover 
 {
-    color: #a1a1a1;
+    color: #FF8200;
 }
-/* 
+
 .bio img {
     float: right;
+    max-width: 500px;
+    width: 100%;
     margin: 0 1em;
-} */
-section #bio {
-    clear: right;
 }
+/* section #bio {
+    clear:;
+} */
 nav img {
     max-height: 50px;
     float: left;
@@ -86,12 +88,9 @@ section h3 {
 
 ul.no-dec {
     list-style-type: none;
-    padding-left: 0;
+    /* margin: 0px; */
 }
 
-div.highlight {
-    border: 1px;
-}
 
 /* Pulse, with thanks to Ian Lunn (http://ianlunn.github.io/Hover/) */
 @-webkit-keyframes hvr-pulse {
@@ -150,5 +149,12 @@ footer a {
 }
 
 footer a:hover {
-    color: #a1a1a1;
+    color: #FF8200;
+}
+
+.callout {
+    opacity: 0.75;
+    background-color: #FF8200;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px,
+    inset rgba(0, 0, 0, 0.2) 0px -1px 2px;
 }
