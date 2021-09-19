@@ -186,3 +186,11 @@ button.customButton:hover {
     background-color: #0C0A3E;
     color: #fff;
 }
+
+.vert-divider {
+    display: inline;
+    width: 20px;
+    height: 100%;
+    border-radius: 12px / 125px;
+    box-shadow: 0 0 8px black;
+}
